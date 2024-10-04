@@ -1,0 +1,50 @@
+/* Main Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Root Variables */
+:root {
+    --clr-primary: #ffd400;
+    --clr-light-black: #555;
+    --clr-mid-black: #333;
+    --clr-black: #000;
+    --clr-bg: #fff;
+    --clr-icon: #262626;
+    --clr-border: rgba(0, 0, 0, .15);
+    --font-poppins: "Poppins", sans-serif;
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-poppins);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Hide Scrollbars */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Reduce Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01s !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01s !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    overflow-x: hidden;
+}

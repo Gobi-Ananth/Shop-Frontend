@@ -1,0 +1,43 @@
+<!-- Cart Model -->
+
+<div class="cart-modal" style="display: none;"> 
+    <div class="cart-content">
+        <button class="close-button">&times;</button>
+        <div class="products" id="cart-products">
+            
+            <!-- 1 -->
+            <div class="product">
+                <img src="./../assets/img/products/Classic-Polo-Shirt.png" alt="Classic Polo Shirt">
+                <div class="product-info">
+                    <p class="title">Classic Polo Shirt</p>
+                    <p class="size">Size: Medium</p>
+                    <div class="quantity-control">
+                        <button class="quantity-btn decrement">-</button>
+                        <input type="text" class="quantity-input" value="1" readonly>
+                        <button class="quantity-btn increment">+</button>
+                    </div>
+                    <p class="price">$29.99</p>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="product">
+                <img src="./../assets/img/products/Black-French-Cuff-Shirt.png" alt="Black French Cuff Shirt">
+                <div class="product-info">
+                    <p class="title">Black French Cuff Shirt</p>
+                    <p class="size">Size: Large</p>
+                    <div class="quantity-control">
+                        <button class="quantity-btn decrement">-</button>
+                        <input type="text" class="quantity-input" value="2" readonly>
+                        <button class="quantity-btn increment">+</button>
+                    </div>
+                    <p class="price">$39.99</p>
+                </div>
+            </div>
+
+        <div class="cart-footer">
+            <p class="total-price" id="total-price">Total: $109.97</p>
+            <button class="checkout-button">Checkout</button>
+        </div>
+    </div>
+</div>

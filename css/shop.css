@@ -1,0 +1,27 @@
+/* Shop Page Styles */
+
+.shop-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center; 
+}
+
+#product-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr)); 
+    grid-gap: 20px;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+h1 {
+    font-size: 1.25rem; 
+    color: var(--clr-mid-black); 
+    margin-top: 50px;
+    padding: 40px 40px 0 40px;
+}
+
+
+
